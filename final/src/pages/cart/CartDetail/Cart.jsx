@@ -3,6 +3,7 @@ import React from "react";
 import CartItem from "./CartItem";
 
 const Cart = ({ items, onRemove, onIncrease, onDecrease }) => {
+  //tổng mặt hàng trong cart
   const total = items.reduce(
     (acc, item) => acc + item.current_seller.price * item.quantity,
     0

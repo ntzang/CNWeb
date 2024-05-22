@@ -5,7 +5,6 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import BookDetail from "./pages/Bookdetail/BookDetail.jsx";
 import CartPage from "./pages/cart/CartPage.jsx";
-
 import { CartProvider } from "./context/CartContext.jsx";
 import Search from "./components/Search/Search.jsx";
 

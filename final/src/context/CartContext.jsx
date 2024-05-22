@@ -6,6 +6,7 @@ const CartContext = createContext();
 // Tạo một hook tùy chỉnh để sử dụng ngữ cảnh giỏ hàng
 export const useCart = () => useContext(CartContext);
 
+///CartProvider
 export const CartProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState(() => {
     // Lấy giỏ hàng từ localStorage nếu có
@@ -14,7 +15,7 @@ export const CartProvider = ({ children }) => {
   });
 
   useEffect(() => {
-    // Lưu giỏ hàng vào localStorage khi cartItems thay đổi
+    // Lưu giỏ hàng vào localStorage
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
   }, [cartItems]);
 

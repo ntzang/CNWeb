@@ -4,12 +4,13 @@ import { useSearchParams } from "react-router-dom";
 import Book from "../Book/Book";
 import Header from "../Header/Header";
 import { useCart } from "../../context/CartContext";
+import "./Search.css";
 
 function Search() {
   const [booksearh, setBook] = useState([]);
   const [searchParams] = useSearchParams();
   const [count, setCount] = useState(0);
-  const {getTotalQuantity} = useCart()
+  const { getTotalQuantity } = useCart();
   useEffect(() => {
     if (count < 25) {
       const param = searchParams.get("name");
@@ -41,7 +42,7 @@ function Search() {
           <h3>Not result</h3>
         </div>
       ) : (
-        <>
+        <div className="">
           <Header getTotalQuantity={getTotalQuantity} />
           <div className="dis-book col-lg-9 col-xm-12 pt-4">
             <div className="d-flex flex-wrap">
@@ -50,7 +51,7 @@ function Search() {
               ))}
             </div>
           </div>
-        </>
+        </div>
       )}
     </div>
   );

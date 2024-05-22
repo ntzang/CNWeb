@@ -10,9 +10,11 @@ import "./bookdetail.css";
 import { useCart } from "../../context/CartContext";
 
 function BookDetail(props) {
+  //cart
   const { addToCart, cartItems, getTotalQuantity } = useCart();
   console.log("cart item", cartItems);
   const handleAddToCart = () => {
+    //call context
     addToCart(book, quantity);
   };
   //Slick-carousel
@@ -304,6 +306,7 @@ function BookDetail(props) {
           </div>
         </div>
       </div>
+      {/* mô tả sách */}
       <div className="row gap-3">
         <div className="col-3"></div>
         <div className="col-6 px-4">

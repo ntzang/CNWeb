@@ -1,21 +1,20 @@
 /* General styles */
 
 #bookdetail .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 #bookdetail .row {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #bookdetail .col {
-    flex: 1;
-    padding: 10px;
+  flex: 1;
+  padding: 10px;
 }
-
 
 /* #bookdetail .col-4 {
   flex: 0 0 33.3333%;
@@ -26,242 +25,243 @@
 } */
 
 #bookdetail .btn-book2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .card1 img .card-img-top {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .card-img-thumbnail {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    cursor: pointer;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
 }
 
 .thumbnail {
-    padding: 5px;
+  padding: 5px;
 }
 
 .slick-slide {
-    padding: 5px;
+  padding: 5px;
 }
 
 .slick-prev:before,
 .slick-next:before {
-    color: black;
+  color: black;
 }
 
 .slick-dots li button:before {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .slick-dots li.slick-active button:before {
-    color: black;
+  color: black;
 }
-
 
 /* Card styles */
 
 .card1 {
-    min-height: 800px;
-    box-shadow: 0px 5px 20px #dddde357;
-    border: none;
+  min-height: 800px;
+  box-shadow: 0px 5px 20px #dddde357;
+  border: none;
 }
 
 .card-img {
-    width: 270px;
-    height: 250px;
-    justify-content: center;
+  width: 270px;
+  height: 250px;
+  justify-content: center;
 }
 
 .card-body {
-    padding: 20px;
+  padding: 20px;
 }
 
 .card-title {
-    font-size: 16px;
-    font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .card-text {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .img-check {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .img-people {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .logo-check {
-    width: 80px;
-    height: 30px;
+  width: 80px;
+  height: 30px;
 }
 
 .text-footer {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .fw-bold-200 {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .fs-16 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .fs-14 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .star {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .btn-book {
-    padding-top: 50px;
-    margin-top: 40px;
-    height: 100%;
-    width: 600px;
-    background-color: var(--headerColor);
-    box-shadow: 0px 5px 20px #dddde357;
-    min-height: 800px;
+  padding-top: 50px;
+  margin-top: 40px;
+  height: 100%;
+  width: 600px;
+  background-color: var(--headerColor);
+  box-shadow: 0px 5px 20px #dddde357;
+  min-height: 800px;
 }
 
 .btn-book2 {
-    padding-top: 20px;
-    width: 600px;
-    height: 100%;
-    background-color: var(--headerColor);
-    box-shadow: 0px 5px 20px #dddde357;
+  padding-top: 20px;
+  width: 600px;
+  height: 100%;
+  background-color: var(--headerColor);
+  box-shadow: 0px 5px 20px #dddde357;
 }
 
 .btn-book3 {
-    padding-top: 30px;
-    width: 280px;
-    height: 400px;
-    background-color: var(--headerColor);
-    box-shadow: 0px 5px 20px #dddde357;
-    border-radius: 5px;
+  padding-top: 30px;
+  width: 280px;
+  height: 400px;
+  background-color: var(--headerColor);
+  box-shadow: 0px 5px 20px #dddde357;
+  border-radius: 5px;
 }
 
 .btn-book3 div button {
-    width: 100%;
+  width: 100%;
 }
 
 .card-mota {
-    height: 100%;
-    justify-content: center;
+  height: 100%;
+  justify-content: center;
 }
-
 
 /* button-cart */
 
 .node {
-    border: 1px solid #787878;
-    width: 35px;
-    height: 35px;
-    border-radius: 5px;
+  border: 1px solid #787878;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
 }
-
 
 /* Responsive styles */
 
 @media (max-width: 375px) {
-    #bookdetail .col-3 {
-        flex: 0 0 100%;
-        justify-content: center;
-    }
-    #bookdetail .card {
-        flex: 0 0 100%;
-        align-items: center;
-    }
-    #bookdetail .col-4 {
-        flex: 0 0 100%;
-    }
-    #detail {
-        flex: 0 0 100%;
-    }
-    #add {
-        flex: 0 0 100%;
-        justify-content: center;
-    }
-    .img-check,
-    .img-people,
-    .logo-check {
-        width: 16px;
-        height: 16px;
-    }
-    .star {
-        width: 12px;
-        height: 12px;
-    }
-    .text-footer {
-        font-size: 10px;
-    }
-    .fw-bold {
-        font-size: 20px;
-    }
-    .fs-16 {
-        font-size: 12px;
-    }
-    .fs-14 {
-        font-size: 10px;
-    }
+  #bookdetail .col-3 {
+    flex: 0 0 100%;
+    justify-content: center;
+  }
+  #bookdetail .card {
+    flex: 0 0 100%;
+    align-items: center;
+  }
+  #bookdetail .col-4 {
+    flex: 0 0 100%;
+  }
+  #detail {
+    flex: 0 0 100%;
+  }
+  #add {
+    flex: 0 0 100%;
+    justify-content: center;
+  }
+  .img-check,
+  .img-people,
+  .logo-check {
+    width: 16px;
+    height: 16px;
+  }
+  .star {
+    width: 12px;
+    height: 12px;
+  }
+  .text-footer {
+    font-size: 10px;
+  }
+  .fw-bold {
+    font-size: 20px;
+  }
+  .fs-16 {
+    font-size: 12px;
+  }
+  .fs-14 {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 980px) {
-    #bookdetail .col-3 {
-        flex: 0 0 100%;
-        justify-content: center;
-    }
-    #bookdetail .card {
-        flex: 0 0 100%;
-        align-items: center;
-    }
-    #bookdetail .col-4 {
-        flex: 0 0 100%;
-    }
-    #detail {
-        flex: 0 0 100%;
-    }
-    #add {
-        flex: 0 0 100%;
-        justify-content: center;
-        align-items: center;
-        padding-left: 170px;
-    }
-    .img-check,
-    .img-people,
-    .logo-check {
-        width: 16px;
-        height: 16px;
-    }
-    .star {
-        width: 12px;
-        height: 12px;
-    }
-    .text-footer {
-        font-size: 10px;
-    }
-    .fw-bold {
-        font-size: 20px;
-    }
-    .fs-16 {
-        font-size: 12px;
-    }
-    .fs-14 {
-        font-size: 10px;
-    }
-    .footer {
-        display: none;
-    }
+  #bookdetail .col-3 {
+    flex: 0 0 100%;
+    justify-content: center;
+  }
+  #bookdetail .col-6 {
+    margin-left: 80px;
+  }
+  #bookdetail .card {
+    flex: 0 0 100%;
+    align-items: center;
+    margin-left: 10px;
+  }
+  #bookdetail .col-4 {
+    flex: 0 0 100%;
+  }
+  #detail {
+    flex: 0 0 100%;
+  }
+  #add {
+    flex: 0 0 100%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 250px;
+  }
+  .img-check,
+  .img-people,
+  .logo-check {
+    width: 16px;
+    height: 16px;
+  }
+  .star {
+    width: 12px;
+    height: 12px;
+  }
+  .text-footer {
+    font-size: 10px;
+  }
+  .fw-bold {
+    font-size: 20px;
+  }
+  .fs-16 {
+    font-size: 12px;
+  }
+  .fs-14 {
+    font-size: 10px;
+  }
+  .footer {
+    display: none;
+  }
 }

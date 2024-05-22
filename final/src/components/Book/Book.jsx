@@ -1,9 +1,6 @@
 // src/components/Book.jsx
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import "./book.css";
-
 function Book(props) {
   return (
     <div id="book" className="px-2 py-2">

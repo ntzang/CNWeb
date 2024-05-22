@@ -1,8 +1,6 @@
 import "./heading.css";
 import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import PropTypes from "prop-types";
-import CartItem from "../../pages/cart/CartDetail/CartItem";
 
 //Component header
 function Header({ getTotalQuantity }) {
@@ -10,6 +8,7 @@ function Header({ getTotalQuantity }) {
   const handleSearch = (e) => {
     setInput(e.target.value);
   };
+  //
   console.log(getTotalQuantity);
 
   return (
