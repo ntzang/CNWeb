@@ -1,0 +1,131 @@
+#header {
+    top: 0;
+    z-index: 9;
+    height: var(--headerHeight);
+    background-color: var(--headerColor);
+    box-shadow: 0px 5px 20px #dddde357;
+}
+
+.img-logo {
+    width: 120px;
+    height: 30px;
+}
+
+.Spanlogo {
+    font-size: 12px;
+    padding-left: 10px;
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.kinhlup {
+    width: 24px;
+    height: 24px;
+}
+
+#mobile-header {
+    height: var(--headerHeight);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+@media screen and (max-width: 750px) {
+     :root {
+        --headerHeight: 88px;
+    }
+    #mobile-header div {
+        height: 100%;
+    }
+    #mobile-header button {
+        color: #fff;
+        margin-right: 10px;
+        background-color: transparent;
+    }
+    #mobile-header .mobile-search {
+        flex: 1;
+        height: 35px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    #mobile-header .mobile-search input {
+        width: 85%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+    #mobile-header .mobile-search span {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        color: var(--defaultBorder);
+    }
+    #mobile-header .mobile-search span img {
+        height: 20px;
+    }
+    #mobile-header .nav-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 350px) {
+     :root {
+        --headerHeight: 88px;
+    }
+    #mobile-header div {
+        height: 100%;
+    }
+    #mobile-header button {
+        color: #fff;
+        margin-right: 10px;
+        background-color: transparent;
+    }
+    #mobile-header .mobile-search {
+        flex: 1;
+        height: 35px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    #mobile-header .mobile-search input {
+        width: 85%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+    #mobile-header .mobile-search span {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        color: var(--defaultBorder);
+    }
+    #mobile-header .mobile-search span img {
+        height: 20px;
+    }
+    #mobile-header .nav-mobile {
+        height: 50px;
+        background-color: #fff;
+    }
+    .mobile-cart-btn {
+        position: relative;
+        margin-left: 10px;
+    }
+    .mobile-cart-btn span {
+        position: absolute;
+        width: 20px;
+        aspect-ratio: 1/1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: small;
+        background-color: red;
+        color: #fff;
+        border-radius: 50%;
+        right: -20%;
+        top: -45%;
+    }
+}

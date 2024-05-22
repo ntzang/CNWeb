@@ -1,0 +1,50 @@
+#nav {
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 550px;
+    background-color: var(--headerColor);
+    box-shadow: 0px 5px 20px #dddde357;
+}
+
+.star img {
+    width: 20px;
+    height: 20px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+#mobile-nav {
+    height: 60px;
+    position: fixed;
+    background-color: #fff;
+    top: 88px;
+    left: 0;
+    right: 0;
+    z-index: 66;
+}
+
+#mobile-nav div {
+    height: 100%;
+}
+
+#mobile-nav .filter {
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0px 5px 20px #dddde357;
+}
+
+#mobile-nav .icon-snow img {
+    width: 45px;
+    height: 24px;
+    border: 1px;
+    border-radius: 3px;
+    background-color: #f5f5fa;
+}
+
+@media only screen and (max-width: 989px) {
+    .navbar {
+        display: none;
+    }
+}
